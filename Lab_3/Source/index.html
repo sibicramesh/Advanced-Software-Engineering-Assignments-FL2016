@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis</title>
+    <link rel="stylesheet" type="text/css" href="cssL.css">
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+    function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+
+    if (response.status === 'connected') {
+
+        window.location='speech.html'
+    }
+}
+
+
+function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+    });
+}
+
+window.fbAsyncInit = function() {
+    FB.init({
+        appId      : '663231293840669',
+        cookie     : true,  // enable cookies to allow the server to access
+                            // the session
+        xfbml      : true,  // parse social plugins on this page
+        version    : 'v2.5' // use graph api version 2.5
+    });
+
+
+    FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+    });
+
+};
+
+
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+// Here we run a very simple test of the Graph API after login is
+// successful.  See statusChangeCallback() for when this call is made.
+function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+        console.log('Successful login for: ' + response.name);
+        document.getElementById('status').innerHTML =
+                'Thanks for logging in, ' + response.name + '!';
+    });
+}
+</script>
+<div class="Body">
+<h1>Speech-to-Text with Sentiment Analysis</h1>
+<label>Username</label>
+    <input type="text" id='user1:' placeholder="Enter Username"><br>
+<label>Password</label>
+<input type="password" id='password:' placeholder="Enter Password"><br>
+<input type="button" value="Login" onclick="Login()" /><br>
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+
+    <div id="status">
+    </div>
+
+    <script>
+    function Login() {
+        var user=document.getElementById('user1:').value;
+        var pass=document.getElementById('password:').value;
+        if(user=="sr284"&&pass=="123456") {
+            window.location = "speech.html";
+        }
+        else {
+alert("Login Failed");
+        }    }
+</script>
+</div>
+</body>
+</html>
