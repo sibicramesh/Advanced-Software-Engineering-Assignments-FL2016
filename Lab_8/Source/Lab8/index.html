@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="b2">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet"  type="text/css" href="index_CSS.css">
+    <title>Convert</title>
+</head>
+<body ng-app=convertapp>
+<div class="b1">
+    <h1>Number Conversions</h1>
+<div ng-controller=convertctrl>
+    <div class="ib">
+        <h3>Enter Decimal Number</h3>
+    <input type="text" ng-model="F" class="c1" >
+        <input type="button" class="button" value="Convert" ng-click="convertg()">
+    <p ng-model=convertcon class="b3">
+        Decimal  :  {{convertcon.Decimal}}<br>
+        Binary  :  {{convertcon.Binary}}<br>
+        Hexadecimal  :  {{convertcon.Hexadecimal}}
+    </p>
+    </div>
+</div>
+</div>
+</body>
+</html>

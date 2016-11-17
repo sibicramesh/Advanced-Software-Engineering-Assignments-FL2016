@@ -1,0 +1,45 @@
+.b2{
+background-image: url("img.jpg");
+    font-size: larger;
+}
+.b1{
+    background-color: ghostwhite;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    margin-top: 90px;
+    font-family: "Times New Roman";
+
+}
+.b3{
+
+    padding-top: 2px;
+    font-size: 20pt;
+}
+.ib{
+
+    
+}
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.c1{
+
+    border-style: solid;
+    border-color: green;
+    font-size:15pt;
+    height:40px;
+    width:300px;
+}
