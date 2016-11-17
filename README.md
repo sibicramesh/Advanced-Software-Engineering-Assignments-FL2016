@@ -11,4 +11,4 @@ LAB 3: https://github.com/sibicramesh/LAB3
 LAB 2: https://github.com/sibicramesh/LAB2
 LAB 1: https://github.com/sibicramesh/LAB1
 
-Note: These folders contain projects from the repositories in the list of repositories tab. The commit details can be found in their respective repositories
+Note: The folders in this repository contains projects from the repositories in the list of repositories tab. The commit details can be found in their respective repositories
