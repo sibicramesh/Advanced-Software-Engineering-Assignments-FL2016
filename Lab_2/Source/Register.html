@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Website CSS style -->
+    <link rel="stylesheet" type="text/css" href="cssR.css">
+
+    <title>Admin</title>
+    <script>
+        function save() {
+            var nameL=document.getElementById('Lname').value;
+            localStorage.setItem('Lastname',nameL);
+            var nameF=document.getElementById('name').value;
+            localStorage.setItem('Firstname',nameF);
+            var nameU=document.getElementById('username').value;
+            localStorage.setItem('Username',nameU);
+            var nameP=document.getElementById('password').value;
+            localStorage.setItem('Password',nameP);
+            var nameC=document.getElementById('confirm').value;
+            localStorage.setItem('Confirm Password',nameC);
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="row main">
+        <div class="panel-heading">
+            <div class="panel-title text-center">
+                <h1 class="title">Sign-Up</h1>
+                <hr />
+            </div>
+        </div>
+
+        <div class="main-login main-center">
+            <form class="form-horizontal" method="post" action="#">
+
+                <div class="form-group">
+
+                    <label for="name" class="cols-sm-2 control-label">Last Name</label>
+
+                            <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                    <span class="test">
+                               <input type="text" class="form-control" name="name" id="Lname"  placeholder="Enter your Last Name"/>
+                      </span>
+</div>
+
+      <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">First Name</label>
+                            <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+          <span class="test">
+                            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your First Name"/>
+</span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="username" class="cols-sm-2 control-label">Username</label>
+
+                            <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                    <span class="test">
+                            <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="cols-sm-2 control-label">Password</label>
+
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                    <span class="test">
+                            <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                    <span class="test">
+                            <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+</span>
+                </div>
+                <p style="text-align: left">
+
+                    <a href="Success.html">  <input type="button" value="Submit" onclick="save()"\></a>
+                    <span style="float: right">
+                   <a href="Login.html"> <button type="button" class="btn btn-primary btn-lg btn-block login-button">Cancel</button></a>
+                </span></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+</body>
+</html>

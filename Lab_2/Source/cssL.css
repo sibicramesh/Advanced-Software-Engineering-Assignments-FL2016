@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+    background-color:#fff;
+    font: bold 20px Roboto,arial,sans-serif;
+}
+
+.container {
+    padding: 25px;
+    position: fixed;
+    left: 200px;
+    right: 200px;
+
+}
+
+.form-login {
+    background-color: Yellow;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 10px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+
+.form-control {
+    border-radius: 10px;
+}
+
+div.wrapper {
+    text-align: center;
+    float: right;
+    margin-right: 300px;
+
+}
+
+label.test2{
+    text-align: center;
+    margin-left: 300px;
+}
+
+label.wrapper1{
+    float: right;
+    margin-right: -180px;
+
+}

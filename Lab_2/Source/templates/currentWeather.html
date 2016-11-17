@@ -1,0 +1,56 @@
+<div class="large-12 columns">
+	<form>
+		<div class="large-10 columns">
+			<input type="text" ng-model="city" placeholder=" Enter your city here (e.g: Helsinki)  "/>
+		</div>
+		<div class="large-2 columns">
+			<button class="button postfix" ng-click="searchCurrentWeatherByCity(city)">
+				<i class="fa fa-search-plus"></i> Search
+			</button>
+		</div>
+	</form>
+</div>
+
+<div class="row" ng-switch="weatherData.cod">
+	<div ng-switch-when="200">
+		<div class="small-12 small-push-4 large-6 large-push-4 columns current-weather">
+			<h3 class="city-name">{{city}} <img ng-src="http://openweathermap.org/img/w/{{weatherData.weather.0.icon}}.png" /></h3>
+			<div class="large-5 columns main-temp-col">
+				<span class="main-temp">{{weatherData.main.temp  | number:1}}</span><span class="celsius-sign">&#8451</span>
+				<p></p>
+				<span class="description"> {{weatherData.weather.0.main}} </span>
+				<br />
+				<br />
+				<span class="record-date"> Recorded on:
+					<br />
+					{{weatherDate | date:'dd.MM.yyyy HH:mm'}} </span>
+			</div>
+
+			<div class="large-7 columns max-min-col">
+				<p></p>
+				<p>
+					Min: <span class="max-min-temp min">{{weatherData.main.temp_min | number:1}}</span><span class="celsius-sign">&#8451</span>
+				</p>
+
+				<p>
+					Max: <span class="max-min-temp max">{{weatherData.main.temp_max | number:1}}</span><span class="celsius-sign"> &#8451</span>
+				</p>
+
+			</div>
+			<div class="large-12 columns humidity">
+				<p>
+					Humidity: {{weatherData.main.humidity}} %
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div ng-switch-when="404">
+		<div class="large-4 large-offset-4 columns">
+			<div data-alert class="alert-box alert round">
+				Error: {{city}} not found
+				<a href="#" class="close">&times;</a>
+			</div>
+		</div>
+	</div>
+</div>
