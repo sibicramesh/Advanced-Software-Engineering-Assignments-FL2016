@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="h" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country</title>
+    <link rel="stylesheet" type="text/css" href="index_css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="countryapp">
+<h1 class="heading">COUNTRY DETAILS </h1>
+<div ng-controller="countryctrl" class="body1">
+    <input type="text" ng-model="country" placeholder="Enter Country Name" class="c1">
+    <input type="button" ng-click="countryg()" class="button" value="Get Details">
+    <p ng-model="countrycon">
+        <div class="b1">Name: {{countrycon.name}}</div><br>
+        <div class="b2">Capital: {{countrycon.capital}}</div><br>
+        <div class="b3">Region: {{countrycon.region}}</div><br>
+        <div class="b4">Population: {{countrycon.population}}</div><br>
+    <div class="b9">Currency: {{countrycon.currency}}</div>
+    <h3 class="h3">Current Weather in {{countrycon.name}}</h3>
+        <div class="b5">Condition: {{countrycon.weather}}</div><br>
+        <div class="b6">Temperature: {{countrycon.temp}} <sup>o</sup>C</div><br>
+        <div class="b7">Pressure: {{countrycon.pressure}} hPa</div><br>
+        <div class="b8">Humidity: {{countrycon.humidity}} %</div><br>
+    </p>
+</div>
+</body>
+</html>

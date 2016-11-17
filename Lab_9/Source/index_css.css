@@ -1,0 +1,130 @@
+.h{
+    background-image: url("back.jpg");
+    background-size: 100% 680px ,cover;
+    font-family: "Times New Roman";
+    color: white;
+
+    }
+.heading{
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+.body1{
+    text-align: center;
+    font-size: 17px;
+}
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.c1{
+
+    border-style: solid;
+    border-color: red;
+    font-size:15pt;
+    height:32px;
+    width:300px;
+}
+.b1{
+    background-color: white;
+    font-weight: bolder;
+    color: lime;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: solid;
+    border-color: skyblue;
+    background-color: rgba(240,128,128,0.85);
+}
+.b2{
+    background-color: white;
+    font-weight: bolder;
+    color: lime;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: solid;
+    border-color: skyblue;
+    background-color: rgba(240,128,128,0.85);
+}
+.b3{
+    background-color: white;
+    margin-left: 200px;
+    color: lime;
+    margin-right: 200px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: skyblue;
+    background-color: rgba(240,128,128,0.85);
+}
+.b4{
+    background-color: white;
+    margin-left: 200px;
+    font-weight: bolder;
+    margin-right: 200px;
+    color: lime;
+    border-style: solid;
+    border-color: skyblue;
+    background-color: rgba(240,128,128,0.85);
+}
+.b5{
+    background-color: white;
+    color: yellow;
+    margin-left: 200px;
+    font-weight: bolder;
+    margin-right: 200px;
+    border-style: solid;
+    border-color: lightcoral;
+    background-color: rgba(135,206,250,0.7);
+}
+.b6{
+    background-color: white;
+    color: yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: lightcoral;
+    background-color: rgba(135,206,250,0.7);
+}
+.b7{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: solid;
+    color: yellow;
+    font-weight: bolder;
+    border-color: lightcoral;
+    background-color: rgba(135,206,250,0.7);
+}
+.b8{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: yellow;
+    border-style: solid;
+    font-weight: bolder;
+    border-color: lightcoral;
+    background-color: rgba(135,206,250,0.7);
+}
+.b9{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bolder;
+    border-style: solid;
+    color: lime;
+    border-color: skyblue;
+    background-color: rgba(240,128,128,0.85);
+}
+.h3{
+    color: antiquewhite;
+}
