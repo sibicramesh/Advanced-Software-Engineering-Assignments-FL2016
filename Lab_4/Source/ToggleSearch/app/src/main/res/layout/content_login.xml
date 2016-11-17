@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/back"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Login!"
+        android:layout_marginTop="90dp"
+        android:id="@+id/login"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:background="#f5a8a8"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Username"
+        android:id="@+id/username"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:background="#f5a8a8" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_txt"
+        android:hint="Enter Username"
+        android:background="#f5a8a8"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:background="#f5a8a8"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass_txt"
+        android:hint="Enter Password"
+        android:password="true"
+        android:background="#f5a8a8"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="50dp"
+        android:id="@+id/loginbtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.23"
+        android:textSize="20dp"
+        android:clickable="false"
+        android:onClick="checkCredentials"
+        android:background="#f5a8a8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please enter valid username and password"
+        android:id="@+id/lbl_Error"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="38dp"
+        android:visibility="invisible"
+        android:textColor="#e12c2c"
+        android:singleLine="false"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:background="#f5a8a8" />
+
+</LinearLayout>
