@@ -1,0 +1,27 @@
+.ht{
+    background-image: url(Login1.jpg);
+    font-family: sans-serif;
+}
+div.body{
+    background-color: cornflowerblue;
+    margin-top: 100px;
+    }
+div.body1{
+    margin-left: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+select.ba{
+    background-color: brown;
+    color: white;
+}
+
+.come{
+    background-color: brown;
+    color: white;
+}
+h1.head{
+    
+    text-transform: uppercase;
+}

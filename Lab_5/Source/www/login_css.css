@@ -1,0 +1,32 @@
+.cla{
+  
+    background-image: url(sample.jpg);
+    background-size: 100% 100%;
+    
+    font-family: sans-serif;
+  }
+div.Body{
+    align-content: center;
+    margin-top: 100px;
+    background-color:cornflowerblue;
+    color: black;
+    
+    
+    }
+h1.h11{
+   margin-left: 140px;
+    color:black;
+}
+div.cen{
+    
+   margin-left: 120px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+label.un{
+    font-size: 20px;
+}
+label.pass{
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+.cla{
+    background-image: url(sample.jpg);
+    background-size: 100% 100%;
+    font-family: sans-serif;
+}
+div.body{
+    align-content: center;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+    
+    
+}
+div.body1{
+    margin-left: 100px;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+h1.h11{
+    color: black;
+    margin-left: 20px;
+}
