@@ -1,0 +1,25 @@
+.cla{
+    background-image: url(img29.jpg);
+    background-size: contain;
+    font-family: sans-serif;
+    color: white;
+}
+div.body{
+    align-content: center;
+    margin-top: 50px;
+    
+    color: white;
+    
+    
+}
+div.body1{
+    margin-left: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+h1.h11{
+    color: white;
+    margin-left: 20px;
+}

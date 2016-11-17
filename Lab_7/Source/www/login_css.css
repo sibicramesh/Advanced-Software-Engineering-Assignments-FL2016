@@ -1,0 +1,31 @@
+.cla{
+  
+    background-image: url(img29.jpg);
+    background-size: 100% 150%;
+    
+    font-family: sans-serif;
+  }
+div.Body{
+    align-content: center;
+    margin-top: 50px;
+    
+    color: white;    
+    
+    }
+h1.h11{
+   margin-left: 10px;
+    color:white;
+}
+div.cen{
+    
+   margin-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+label.un{
+    font-size: 20px;
+}
+label.pass{
+    font-size: 20px;
+}

@@ -1,0 +1,33 @@
+.ht{
+    background-image: url(img29.jpg);
+    background-size: contain;
+      
+    font-family: sans-serif;
+}
+div.body{
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    
+    }
+div.body1{
+    margin-left: 10px;
+    
+    
+}
+select.ba{
+    background-color: maroon;
+    color: white;
+}
+
+.come{
+    background-color: maroon;
+    color: white;
+}
+h1.head{
+    
+    text-transform: uppercase;
+}
+h1.top{
+    margin-top: 10px;
+}
