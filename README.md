@@ -1,5 +1,7 @@
 ## Advanced Software Engineering (ASE) Assignments [Complete]
 
-Note:New Repo was created for each LAB Assignment, inorder to improve Readability I created a single repo which contains all the Lab Assignments.
+Everything from GitHub Setup to Deploying a Node.JS Application on AWS is included in this reposritory
 
-Commit Details Can be found on : https://github.com/sibicramesh/ASE_ASSIGNMENTS/wiki/Commit-Details
+**Note**:New Repository was created for each and every LAB Assignment, inorder to improve Readability I created a single repository which contains all the Lab Assignments
+
+**Commit Details** Can be found on : https://github.com/sibicramesh/ASE_ASSIGNMENTS/wiki/Commit-Details
