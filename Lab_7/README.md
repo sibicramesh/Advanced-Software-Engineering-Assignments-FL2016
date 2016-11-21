@@ -2,4 +2,4 @@
 
 Wiki Link
 
-https://github.com/sibicramesh/LAB7/wiki
+https://github.com/sibicramesh/ASE_ASSIGNMENTS/wiki/LAB7
