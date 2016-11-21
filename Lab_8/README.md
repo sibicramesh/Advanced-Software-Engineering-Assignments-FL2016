@@ -2,4 +2,4 @@
 
 Wiki Link
 
-https://github.com/sibicramesh/LAB8/wiki/LAB-ASSIGNMENT-%238
+https://github.com/sibicramesh/ASE_ASSIGNMENTS/wiki/LAB8
