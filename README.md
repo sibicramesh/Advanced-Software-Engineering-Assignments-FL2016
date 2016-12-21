@@ -4,6 +4,6 @@ Everything from GitHub Setup to Deploying a Node.JS Application on AWS is includ
 
 **Technologies/Tools/Languages Used**: HTML5,CSS3,Bootstrap,AngularJS,JavaScript,Java,XML,JSON,AJAX,Node.JS,Express.JS,MongoDB,Firebase,Tomcat,Android Studio,Ionic,JSLint,Web Services(API),Servlets,Eclipse,JUnit,Jasmine,Karma,REST,WebStorm,Brackets,AWS,Visio,Creately and Visual Studio
 
-**Note**:New Repository was created for each and every LAB Assignment, inorder to improve Readability I created a single repository which contains all the Lab Assignments
+**Note**:New Repository was created for each and every LAB Assignment. Inorder to improve Readability I created a single repository which contains all the Lab Assignments
 
 **Commit Details** Can be found on : https://github.com/sibicramesh/ASE_ASSIGNMENTS/wiki/Commit-Details
